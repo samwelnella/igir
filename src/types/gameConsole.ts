@@ -89,6 +89,7 @@ export default class GameConsole {
     new GameConsole(/PC Engine|TurboGrafx/i, ['.pce'], 'pce', 'TGFX16', 'PCE', 'pcengine', 'tg16'),
     new GameConsole(/(PC Engine|TurboGrafx) CD/i, [/* '.bin', '.cue' */], 'pcecd', 'TGFX16', 'PCECD', 'pcenginecd', 'tg16cd'),
     new GameConsole(/SuperGrafx/i, ['.sgx'], 'pce', 'TGFX16', 'SGFX', 'supergrafx', 'sgfx'),
+    new GameConsole(/PC-FX/i, [/* '.bin', '.cue' */], undefined, undefined, 'PCFX', 'pcfx', 'pcfx'),
     new GameConsole(/PC-88/i, ['.d88'], undefined, 'PC8801', 'PCEIGHTYEIGHT', 'pc88', 'pc88'),
     new GameConsole(/PC-98/i, ['.d98'], undefined, undefined, 'PCNINETYEIGHT', 'pc98', 'pc98'),
     // Nintendo
